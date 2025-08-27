@@ -76,7 +76,7 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 - Have IR team or external partners on standby.  
 
 ### Continuous Monitoring
-- Watch for **IOCs**:
+- Watch for the following **IOCs**:
 
 ## Indicators of Compromise
 
