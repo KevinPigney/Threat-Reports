@@ -65,24 +65,11 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 ## 🛠 Recommended Defenses
 
 ### Employee Training
-- Regular awareness on phishing, fake updates, and unusual prompts.  
+- Regular awareness on phishing, fake updates, and ClickFix techniques.  
 
 ### Prevent Initial Access
-- DNS filtering & web firewalls to block malicious domains.  
+- DNS filtering & web firewalls to block known malicious domains.  
 - Block tunneling tools (like **TryCloudflare**) unless operationally required.  
-
-### Vulnerability Management
-- Patch OS, apps, and firmware consistently.  
-
-### Network Segmentation
-- Segment networks to reduce lateral movement.  
-
-### Identity & Access Management
-- Enforce **MFA** for email, VPN, and critical accounts.  
-- Apply strong ICAM policies.  
-
-### Endpoint Security
-- Deploy **EDR platforms** (e.g., Arctic Wolf® Aurora™).  
 
 ### Incident Response Planning
 - Maintain and regularly test an IR plan.  
@@ -90,3 +77,46 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 
 ### Continuous Monitoring
 - Watch for **IOCs**:
+
+## Indicators of Compromise
+
+## 🔐 Malware Hashes
+
+### Table View
+| Malware Name | Hash Type | File Hash | Details | First Reported | Source |
+|--------------|-----------|-----------|---------|----------------|--------|
+| dodgy.js     | SHA-256   | 2acaa9856ee58537c06cc2858fd71b860f53219504e6756faa3812019b5df5a6 | – | 2025-02-21 | Arctic Wolf |
+|              | SHA-256   | 0b47e53f2ada0555588aa8a6a4491e14d7b2528c9a829ebb6f7e9463963cd0e4 | – | 2025-03-27 | Arctic Wolf |
+| 12341234     | SHA-256   | 7501623230eef2f6125dcf5b5d867991bdf333d878706d77c1690b632195c3ff | ClickFix PowerShell Loader | 2025-04-17 | Arctic Wolf |
+|              | SHA-256   | 3e4407dfd827714a66e25c2baccefd915233eeec8fb093257e458f4153778bee | Interlock RAT | 2025-03-27 | Arctic Wolf |
+|              | SHA-256   | 0b47e53f2ada0555588aa8a6a4491e14d7b2528c9a829ebb6f7e9463963cd0e4 | Interlock RAT | 2025-03-27 | Arctic Wolf |
+|              | SHA-256   | fcdbe8f6204919f94fd57309806f5609ae88ae1bbd000d6226f25d2200cf6d47 | Interlock RAT | 2025-03-27 | Arctic Wolf |
+| budget       | SHA-256   | 61d092e5c7c8200377a8bd9c10288c2766186a11153dcaa04ae9d1200db7b1c5 | Interlock RAT | 2025-02-27 | Arctic Wolf |
+| chst.sh      | SHA-1     | 6b4bdffdd5734842120e1772d1c81ee7bd99c2f1 | ESXi Interlock Ransomware Script | 2025-04-23 | Arctic Wolf |
+| conhost      | SHA-1     | 9256cc0ec4607becf8e72d6d416bf9e6da0e03dd | ESXi Interlock Ransomware Script | 2025-04-23 | Arctic Wolf |
+| conhost.exe  | SHA-1     | bd19b3ccfb5220b53acff5474a7f63b95775a2c7 | Interlock Ransomware | 2025-04-23 | Arctic Wolf |
+| complexion   | SHA-256   | 6b72706fe0a0d2192d578e9e754d0e3f5715154a41bd18f80b32adcffad26522 | Interlock RAT | 2025-05-19 | Arctic Wolf |
+|              | SHA-256   | 60d95d385e76bb83d38d713887d2fa311b4ecd9c5013882cd648afdeeb5dc7c3 | Interlock RAT | 2025-07-28 | Arctic Wolf |
+|              | SHA-256   | e40e82b77019edca06c7760b6133c6cc481d9a22585dd80bce393f0bfbe47a99 | Interlock RAT | 2025-06-30 | Arctic Wolf |
+|              | SHA-256   | 0dd67fa3129acbf191eeb683fb164074cc1ba5d7bce286e0cc5ad47cc0bbcef0 | Interlock RAT | 2025-06-30 | Arctic Wolf |
+|              | SHA-256   | b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a | Interlock RAT | 2025-06-30 | Arctic Wolf |
+
+---
+
+### Copy/Paste Hash List
+```text
+2acaa9856ee58537c06cc2858fd71b860f53219504e6756faa3812019b5df5a6
+0b47e53f2ada0555588aa8a6a4491e14d7b2528c9a829ebb6f7e9463963cd0e4
+7501623230eef2f6125dcf5b5d867991bdf333d878706d77c1690b632195c3ff
+3e4407dfd827714a66e25c2baccefd915233eeec8fb093257e458f4153778bee
+fcdbe8f6204919f94fd57309806f5609ae88ae1bbd000d6226f25d2200cf6d47
+61d092e5c7c8200377a8bd9c10288c2766186a11153dcaa04ae9d1200db7b1c5
+6b4bdffdd5734842120e1772d1c81ee7bd99c2f1
+9256cc0ec4607becf8e72d6d416bf9e6da0e03dd
+bd19b3ccfb5220b53acff5474a7f63b95775a2c7
+6b72706fe0a0d2192d578e9e754d0e3f5715154a41bd18f80b32adcffad26522
+60d95d385e76bb83d38d713887d2fa311b4ecd9c5013882cd648afdeeb5dc7c3
+e40e82b77019edca06c7760b6133c6cc481d9a22585dd80bce393f0bfbe47a99
+0dd67fa3129acbf191eeb683fb164074cc1ba5d7bce286e0cc5ad47cc0bbcef0
+b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
+
