@@ -65,7 +65,7 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 ## Recommended Defenses
 
 ### Employee Training
-- Regular awareness on phishing, fake updates, and ClickFix techniques.  
+- Regular awareness on phishing, fake updates, and other ClickFix techniques.  
 
 ### Prevent Initial Access
 - DNS filtering & web firewalls to block known malicious domains.  
