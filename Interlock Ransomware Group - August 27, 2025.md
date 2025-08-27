@@ -4,7 +4,7 @@ This report summarizes the Interlock ransomware group, their targets, attack met
 
 ---
 
-## 🕵️ Who is Interlock?
+## Who is Interlock?
 
 The **Interlock ransomware group** (also called *Nefarious Mantis*) is a financially motivated and opportunistic threat actor first observed in **September 2024**.  
 
@@ -17,7 +17,7 @@ The **Interlock ransomware group** (also called *Nefarious Mantis*) is a financi
 
 ---
 
-## 🎯 Targeting
+## Targeting
 
 Interlock attacks **businesses and critical infrastructure sectors** in North America, Europe, and Australia.  
 
@@ -36,7 +36,7 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 
 ---
 
-## 🔓 Attack Methods
+## Attack Methods
 
 ### Initial Access
 - Compromised websites + **ClickFix social engineering** technique.  
@@ -62,7 +62,7 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 
 ---
 
-## 🛠 Recommended Defenses
+## Recommended Defenses
 
 ### Employee Training
 - Regular awareness on phishing, fake updates, and ClickFix techniques.  
@@ -80,7 +80,7 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 
 ## Indicators of Compromise
 
-## 🔐 Malware Hashes
+## Malware Hashes
 
 ### Table View
 | Malware Name | Hash Type | File Hash | Details | First Reported | Source |
