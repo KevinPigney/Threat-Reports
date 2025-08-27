@@ -13,7 +13,7 @@ The **Interlock ransomware group** (also called *Nefarious Mantis*) is a financi
 - CISA and FBI issued warnings in **2025** due to increased activity and upgraded malware.  
 - May be a **spin-off of Rhysida ransomware**.  
 
-> ⚠ **Key Takeaway:** Interlock combines social engineering and living-off-the-land techniques with strong extortion pressure.
+> **Key Takeaway:** Interlock combines social engineering and living-off-the-land techniques with strong extortion pressure.
 
 ---
 
