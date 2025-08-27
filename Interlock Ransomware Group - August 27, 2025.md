@@ -120,7 +120,7 @@ e40e82b77019edca06c7760b6133c6cc481d9a22585dd80bce393f0bfbe47a99
 0dd67fa3129acbf191eeb683fb164074cc1ba5d7bce286e0cc5ad47cc0bbcef0
 b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
 ```
-## 🌐 Network Artifacts
+## Network Artifacts
 
 ### Table View
 | Network Artifact | Details | Intrusion Phase | First Reported | Source |
@@ -166,7 +166,7 @@ b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
 
 ---
 
-## 🖥️ System Artifacts
+## System Artifacts
 
 ### Table View
 | Host Artifact | Details | Source |
