@@ -120,3 +120,82 @@ e40e82b77019edca06c7760b6133c6cc481d9a22585dd80bce393f0bfbe47a99
 0dd67fa3129acbf191eeb683fb164074cc1ba5d7bce286e0cc5ad47cc0bbcef0
 b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
 
+## 🌐 Network Artifacts
+
+### Table View
+| Network Artifact | Details | Intrusion Phase | First Reported | Source |
+|------------------|---------|-----------------|----------------|--------|
+| 168.119.96[.]41  | Backdoor C2 | Command and Control | 2025-02-25 | Arctic Wolf |
+| 95.217.22[.]175  | Backdoor C2 | Command and Control | 2025-02-25 | Arctic Wolf |
+| 178.156.129[.]27 | Backdoor C2 | Command and Control | 2025-02-25 | Arctic Wolf |
+| Cluders[.]org    | Suspicious domain connected to Interlock ransomware | Initial Access | 2025-04-30 | Arctic Wolf |
+| Bronxy[.]cc      | Suspicious domain connected to Interlock ransomware | Initial Access | 2025-05-02 | Arctic Wolf |
+| fake-domain-1892572220[.]com | Suspicious domain connected to Interlock ransomware | Initial Access | 2025-04-22 | Arctic Wolf |
+| Basiclock[.]cc   | Suspicious domain connected to Interlock ransomware | Initial Access | 2025-04-30 | Arctic Wolf |
+| Dijoin[.]org     | Suspicious domain connected to Interlock ransomware | Initial Access | 2025-05-02 | Arctic Wolf |
+| Playiro[.]net    | Suspicious domain connected to Interlock ransomware | Initial Access | 2025-04-30 | Arctic Wolf |
+| Doriot[.]info    | Suspicious domain connected to Interlock ransomware | Initial Access | 2025-05-02 | Arctic Wolf |
+| Kingrouder[.]tech| Suspicious domain connected to Interlock ransomware | Initial Access | 2025-04-30 | Arctic Wolf |
+| Peasplecore[.]net| Suspicious domain connected to Interlock ransomware | Initial Access | 2025-05-01 | Arctic Wolf |
+| Dashes[.]cc      | Payload Server | Initial Access | 2025-04-30 | Arctic Wolf |
+| Nettixx[.]com    | Compromised WordPress site | Initial Access | 2025-04-30 | Arctic Wolf |
+| 159.69.3[.]151   | C2 | Command and Control | 2025-04-02 | Arctic Wolf |
+| 128.140.120[.]188| C2 | Command and Control | 2025-06-30 | Esentire |
+| 177.136.225[.]135| C2 | Command and Control | 2025-06-30 | Esentire |
+| 167.235.235[.]151| C2 | Command and Control | 2025-06-30 | Esentire |
+| 216.245.184[.]181| C2 | Command and Control | 2025-04-02 | Arctic Wolf |
+| fake-domain-1892572220[.]com | C2 | Command and Control | 2025-04-21 | Arctic Wolf |
+| 5.161.225[.]197  | Backdoor C2 | Command and Control | 2025-04-21 | Arctic Wolf |
+| 91.99.10[.]54    | C2 | Command and Control | 2025-04-28 | Arctic Wolf |
+| 138.199.156[.]22 | C2 | Command and Control | 2025-04-28 | Arctic Wolf |
+| 128.140.120[.]188| C2 | Command and Control | 2025-05-19 | Arctic Wolf |
+| 188.34.195[.]44  | C2 | Command and Control | 2025-04-30 | Arctic Wolf |
+| 45.61.136[.]202  | C2 | Command and Control | 2025-04-30 | Arctic Wolf |
+| 49.12.69[.]80    | C2 | Command and Control | 2025-04-30 | Arctic Wolf |
+| 212.237.217[.]182| C2 | Command and Control | 2025-06-10 | Arctic Wolf |
+| 177.136.225[.]135| C2 | Command and Control | 2025-06-03 | Arctic Wolf |
+| 216.245.184[.]181| C2 | Command and Control | 2025-06-10 | Arctic Wolf |
+| 193.149.180[.]58 | C2 | Command and Control | 2025-04-30 | Arctic Wolf |
+| 188.34.195[.]44  | C2 | Command and Control | 2025-06-10 | Arctic Wolf |
+| 138.199.156[.]22 | C2 | Command and Control | 2025-04-30 | Arctic Wolf |
+| 128.140.120[.]188| C2 | Command and Control | 2025-05-20 | Arctic Wolf |
+| 192.64.86[.]175  | C2 | Command and Control | 2025-04-30 | Arctic Wolf |
+| 91.99.10[.]54    | C2 | Command and Control | 2025-04-30 | Arctic Wolf |
+| 5.161.225[.]197  | C2 | Command and Control | 2025-04-30 | Arctic Wolf |
+| 168.119.96[.]41  | C2 | Command and Control | 2025-06-10 | Arctic Wolf |
+
+---
+
+### Copy/Paste List
+```text
+168.119.96[.]41
+95.217.22[.]175
+178.156.129[.]27
+Cluders[.]org
+Bronxy[.]cc
+fake-domain-1892572220[.]com
+Basiclock[.]cc
+Dijoin[.]org
+Playiro[.]net
+Doriot[.]info
+Kingrouder[.]tech
+Peasplecore[.]net
+Dashes[.]cc
+Nettixx[.]com
+159.69.3[.]151
+128.140.120[.]188
+177.136.225[.]135
+167.235.235[.]151
+216.245.184[.]181
+fake-domain-1892572220[.]com
+5.161.225[.]197
+91.99.10[.]54
+138.199.156[.]22
+188.34.195[.]44
+45.61.136[.]202
+49.12.69[.]80
+212.237.217[.]182
+193.149.180[.]58
+192.64.86[.]175
+
+
