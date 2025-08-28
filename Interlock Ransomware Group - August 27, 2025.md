@@ -179,3 +179,17 @@ b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
 | `HKCU\Software\Microsoft\Windows\CurrentVersion\Run /v ChromeUpdater` | Registry Key | Arctic Wolf |
 
 ---
+
+## 📚 Resources
+
+- **CISA & FBI** – [Joint Advisory: Interlock Ransomware Group Activity](https://www.cisa.gov/) (2025)
+- **Arctic Wolf** – Threat Intel Reports on Interlock (2025)
+- **Esentire** – [Interlock Ransomware Technical IOCs](https://www.esentire.com/) (2025)
+- **Public Breach Disclosures**
+  - DaVita Healthcare – April 2025
+  - City of St. Paul, MN – July 2025
+- **MITRE ATT&CK** – [Enterprise Techniques Matrix](https://attack.mitre.org/matrices/enterprise/)  
+- **General Reading**
+  - [BleepingComputer: New Interlock Ransomware Targets Healthcare](https://www.bleepingcomputer.com/) (2025)
+  - [Dark Reading: Interlock Group Expands Operations](https://www.darkreading.com/) (2025)
+
