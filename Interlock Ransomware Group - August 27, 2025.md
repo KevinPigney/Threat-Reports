@@ -78,7 +78,7 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 ### Continuous Monitoring
 - Watch for the following **IOCs**:
 
-## Indicators of Compromise
+### Indicators of Compromise
 
 ## Malware Hashes
 
