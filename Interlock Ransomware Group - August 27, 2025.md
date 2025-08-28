@@ -72,10 +72,6 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 - DNS filtering & web firewalls to block known malicious domains.  
 - Block tunneling tools (like **TryCloudflare**) unless operationally required.  
 
-### Incident Response Planning
-- Maintain and regularly test an IR plan.  
-- Have IR team or external partners on standby.  
-
 ### Continuous Monitoring
 - Watch for the following **IOCs**:
 
