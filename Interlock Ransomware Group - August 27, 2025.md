@@ -42,7 +42,8 @@ Interlock attacks **businesses and critical infrastructure sectors** in North Am
 - Compromised websites + **ClickFix social engineering** technique.  
 - Fake “prove you are human” prompts / malicious software updaters (Chrome/Edge).  
 - Built with PyInstaller: installs a decoy + runs hidden PowerShell payload.  
-- ClickFix tricks users into manually running **Windows + R → CTRL + V** to execute backdoors.  
+- ClickFix tricks users into manually running **Windows + R → CTRL + V** to execute backdoors.
+- So what? Well, this tactic (ClickFix) bypasses traditional phishing detection because the user is manually pasting the payload, making it harder for automated de
 
 ### Execution, Persistence, & Evasion
 - PowerShell backdoor runs stealthily in **detached mode**.  
