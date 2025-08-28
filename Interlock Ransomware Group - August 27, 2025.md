@@ -185,5 +185,5 @@ b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
   - DaVita Healthcare – April 2025: https://www.bitdefender.com/en-us/blog/hotforsecurity/davita-confirms-data-breach-impacting-2-4-million-patients
   - City of St. Paul, MN – July 2025: https://www.cbsnews.com/minnesota/news/melvin-carter-st-paul-cyberattack-update-august-11/
 - **General Reading**
-  - [BleepingComputer: https://www.bleepingcomputer.com/news/security/kettering-health-confirms-interlock-ransomware-behind-cyberattack/
-  - [Dark Reading: https://www.darkreading.com/threat-intelligence/web-inject-campaign-interlock-rat-variant
+  - BleepingComputer: https://www.bleepingcomputer.com/news/security/kettering-health-confirms-interlock-ransomware-behind-cyberattack/
+  - Dark Reading: https://www.darkreading.com/threat-intelligence/web-inject-campaign-interlock-rat-variant
