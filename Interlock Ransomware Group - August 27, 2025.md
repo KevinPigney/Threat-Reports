@@ -180,16 +180,13 @@ b28a9062100a7fbf0f65dbb23db319717c4e613e890d0a3f1ae27ec6e34cf35a
 
 ---
 
-## 📚 Resources
+## Resources
 
-- **CISA & FBI** – [Joint Advisory: Interlock Ransomware Group Activity](https://www.cisa.gov/) (2025)
-- **Arctic Wolf** – Threat Intel Reports on Interlock (2025)
-- **Esentire** – [Interlock Ransomware Technical IOCs](https://www.esentire.com/) (2025)
+- **CISA & FBI** – https://www.cisa.gov/news-events/cybersecurity-advisories/aa25-203a)
+- **Arctic Wolf** – https://arcticwolf.com/resources/blog/threat-actor-profile-interlock-ransomware/
 - **Public Breach Disclosures**
   - DaVita Healthcare – April 2025
-  - City of St. Paul, MN – July 2025
-- **MITRE ATT&CK** – [Enterprise Techniques Matrix](https://attack.mitre.org/matrices/enterprise/)  
+  - City of St. Paul, MN – July 2025 
 - **General Reading**
-  - [BleepingComputer: New Interlock Ransomware Targets Healthcare](https://www.bleepingcomputer.com/) (2025)
-  - [Dark Reading: Interlock Group Expands Operations](https://www.darkreading.com/) (2025)
-
+  - [BleepingComputer: https://www.bleepingcomputer.com/news/security/kettering-health-confirms-interlock-ransomware-behind-cyberattack/
+  - [Dark Reading: https://www.darkreading.com/threat-intelligence/web-inject-campaign-interlock-rat-variant
